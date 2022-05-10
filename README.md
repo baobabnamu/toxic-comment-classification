@@ -1,7 +1,8 @@
-https://wikidocs.net/81504
+### Reference
+- https://wikidocs.net/81504
 
 
-기능 정의
+### 기능 정의
 1. / 경로로 접속하면 index 페이지가 출력됩니다.
     1-1. 인덱스 페이지에서 서비스에 대한 간단한 설명을 보여줍니다.
     1-2. 예측하기 버튼을 통해 /predict API를 요청할 수 있습니다.
