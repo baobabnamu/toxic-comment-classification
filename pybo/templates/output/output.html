@@ -16,13 +16,12 @@
 			<header id="header">
 				<h1>Toxic Comment Classfication Service</h1>
 				<p>악플, 그것은 엄연히 범죄입니다.<br />
-				인공지능 모델 개발 과정이 궁금하다면? <a href="#">이동하기</a></p>
+				필터링이 완료되었습니다. <a href="/">다시하기</a></p>
 			</header>
 
 		<!-- Filltering Form -->
-			<form id="signup-form" method="post" action="/predict">
-				<input type="text" name="inputText" placeholder="필터링할 댓글을 입력하세요." />
-				<input type="submit" value="Filltering" />
+			<form id="signup-form" method="post" action="/api/predict">
+				<h3>{{outputText}}</h3>
 			</form>
 
 		<!-- Footer -->
