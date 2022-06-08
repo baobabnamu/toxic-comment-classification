@@ -17,10 +17,16 @@
 				<h1>Toxic Comment Classification Service</h1>
 				<p>악플, 그것은 엄연히 범죄입니다.<br />
 				분석이 완료되었습니다. <a href="/">다시하기</a></p>
-				분류된 문장을 필터링 하시겠습니까? <a href="/">필터링하기</a></p>
 			</header>
 
-			<!-- Classfication Predict Form -->
+			<!-- Filtering Predict Form -->
+			<form id="signup-form" method="post" action="/predict-filtering">
+				<input type="text" name="inputText" placeholder="분류된 댓글을 입력하세요." />
+				<input type="submit" value="Filtering" />
+			</form>
+			<form id="signup-form" method="post" action="/api/predict">
+				<h3>{{inputText}}</h3>
+			</form>
 			<form id="signup-form" method="post" action="/api/predict">
 				<h3>{{outputText}}</h3>
 			</form>
